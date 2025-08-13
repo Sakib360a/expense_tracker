@@ -130,7 +130,7 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
           });
           },
             style: SegmentedButton.styleFrom(
-              backgroundColor: Theme.of(context).colorScheme.surfaceVariant, // Adapts to theme
+              backgroundColor: Theme.of(context).colorScheme.surfaceContainerHighest, // Adapts to theme
               selectedBackgroundColor: _transactionType == 'expense'
                   ? Colors.red.withOpacity(0.2)
                   : Colors.green.withOpacity(0.2),
